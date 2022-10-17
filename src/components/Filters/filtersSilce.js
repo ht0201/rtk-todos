@@ -1,13 +1,13 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  search: '',
-  status: 'All',
+  search: "",
+  status: "All",
   priorities: [],
 };
 
 export const filtersSlice = createSlice({
-  name: 'filters',
+  name: "filters",
   initialState,
   reducers: {
     searchFilterChange: (state, action) => {
